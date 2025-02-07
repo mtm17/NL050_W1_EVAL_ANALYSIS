@@ -1,0 +1,169 @@
+respondent,question,survey_link_note,rank_max,rank,reasons_2d,comments
+R01,1a,,10,1,NA,NA
+R01,1b,,10,6,NA,NA
+R01,1c_01,Discrete simulated wildfire events,5,4,NA,none
+R01,1c_02,Wildfire burn probability maps,5,4,NA,none
+R01,1c_03,Maps of total area burned by pixel,5,3,NA,none
+R01,2a,,10,1,NA,NA
+R01,2b,,10,6,NA,NA
+R01,2c,,10,5,NA,NA
+R01,2d_01,Map control panel and data library search,5,3,none,none
+R01,2d_02,Planning area Creation Map View Windows,5,3,none,none
+R01,2d_03,Planning Area Creation Process - polygon file upload,5,4,none,none
+R01,2d_04,Scenario building tool - treatment goals,5,2,none,hard to toggle btwn different inputs
+R01,2d_05,Scenario building tool - Constraints,5,1,none,none
+R01,2d_06,Scenario building tool - Result Outputs,5,2,none,none 
+R02,1a,,10,3,NA,NA
+R02,1b,,10,9,NA,NA
+R02,1c_01,,5,3,NA,"only useful for a shot in time, can (you) use in analysis?"
+R02,1c_02,,5,3,NA,what type of sertainty (certainty?) are you needing for a project?
+R02,1c_03,,5,5,NA,very much needed
+R02,2a,,10,1,NA,NA
+R02,2b,,10,8,NA,NA
+R02,2c,,10,9,NA,NA
+R02,2d_01,,5,5,very easy,none
+R02,2d_02,,5,5,very easy,none
+R02,2d_03,,5,5,very easy,none
+R02,2d_04,,5,3,some errors in the system. further info to explain the intracacies (?) of each selection,add additional goals; be able to run with multiple goals.
+R02,2d_05,,5,3,easy to use but want more explanation,none
+R02,2d_06,,5,3,none,needs a synthesis of what was analyzed
+R03,1a,,10,1,NA,NA
+R03,1b,,10,5,NA,NA
+R03,1c_01,,5,2,NA,none
+R03,1c_02,,5,4,NA,does this give us future wildfire risk for potential future development?
+R03,1c_03,,5,2,NA,"potential size of fire, this may be less helpful"
+R03,2a,,10,1,NA,NA
+R03,2b,,10,5,NA,NA
+R03,2c,,10,5,NA,NA
+R03,2d_01,,5,3.5,interface is user friendly just small quirks and constraints to learn,none
+R03,2d_02,,5,3.5,I thought it was straightforward but ended up needing to reinitiate to get it to work,none
+R03,2d_03,,5,5,easy once I got it,none
+R03,2d_04,,5,3,none,none
+R03,2d_05,,5,2,"constraints not apparent at first. helpful these popped up once you entered a number, but these should be apparent at onset",none
+R03,2d_06,,5,4,none,none
+R04,1a,,10,4,NA,NA
+R04,1b,,10,6,NA,NA
+R04,1c_01,,5,3,NA,none
+R04,1c_02,,5,4,NA,none
+R04,1c_03,,5,2,NA,none
+R04,2a,,10,8,NA,NA
+R04,2b,,10,8,NA,NA
+R04,2c,,10,8,NA,NA
+R04,2d_01,,5,3,none,none
+R04,2d_02,,5,4,none,none
+R04,2d_03,,5,4,none,none
+R04,2d_04,,5,3,none,none
+R04,2d_05,,5,3,none,none
+R04,2d_06,,5,3,none,none
+R05,1a,,10,1,NA,NA
+R05,1b,,10,7,NA,NA
+R05,1c_01,,5,2,NA,none
+R05,1c_02,,5,5,NA,this would be the most useful. it would be the most helpful to be able to adjust timescale and climate change scenario 
+R05,1c_03,,5,3,NA,none 
+R05,2a,,10,1,NA,NA
+R05,2b,,10,6,NA,NA
+R05,2c,,10,6,NA,NA
+R05,2d_01,,5,3,add legend to map so it is always visible,none
+R05,2d_02,,5,NA,didn't play with this,none
+R05,2d_03,,5,2,need better pop-up directions to set geographic area before upload ,none
+R05,2d_04,,5,NA,don't have strong opinions about these,none
+R05,2d_05,,5,NA,don't have strong opinions about these,none
+R05,2d_06,,5,NA,don't have strong opinions about these,none
+R06,1a,,10,1,NA,NA
+R06,1b,,10,3,NA,NA
+R06,1c_01,,5,3,NA,none
+R06,1c_02,,5,5,NA,none
+R06,1c_03,,5,5,NA,none
+R06,2a,,10,1,NA,NA
+R06,2b,,10,3,NA,NA
+R06,2c,,10,5,NA,NA 
+R06,2d_01,,5,4,simple and clear to use,none
+R06,2d_02,,5,4,simple and clear to use,none
+R06,2d_03,,5,4,simple and clear to use,none
+R06,2d_04,,5,2,simple to use,goals are limited
+R06,2d_05,,5,2,simple to use,none
+R06,2d_06,,5,2,simple to use,none
+R07,1a,,10,2,NA,NA
+R07,1b,,10,3,NA,NA
+R07,1c_01,,5,NA,NA,none
+R07,1c_02,,5,NA,NA,none
+R07,1c_03,,5,NA,NA,none
+R07,2a,,10,3,NA,NA
+R07,2b,,10,5,NA,NA
+R07,2c,,10,8,NA,NA
+R07,2d_01,,5,NA,none,none
+R07,2d_02,,5,NA,none,none
+R07,2d_03,,5,5,simple to do,none
+R07,2d_04,,5,3,"easy to use, but limited use doesn't reflect reality",be able to select multiple treatment goals
+R07,2d_05,,5,3,easy to use but cost/acre makes it hard to compare multi-treatment types with different costs/acre (e.g. crews vs. grazing),none
+R07,2d_06,,5,1,hard to understand output graphs and tables,better explain how to interpret the output components
+R08,1a,,10,3,NA,NA
+R08,1b,,10,5,NA,NA
+R08,1c_01,,5,2,NA,doesn't cover areas of interest
+R08,1c_02,,5,3,NA,"these focus on forested areas, so the scale of severity is not as useful"
+R08,1c_03,,5,2,NA,very large scale 
+R08,2a,,10,2,NA,NA
+R08,2b,,10,6,NA,NA
+R08,2c,,10,7,NA,NA 
+R08,2d_01,,5,2,definitions needed,pop out info boxes
+R08,2d_02,,5,2,not sure why showing multiple maps,titles and maps?
+R08,2d_03,,5,3,pretty easy. need to choose certain part of button to upload. need to choose correct region first. ,make whole button reactive
+R08,2d_04,,5,2,better definitions,none
+R08,2d_05,,5,2,unclear why some don't work,explanation of why broke
+R08,2d_06,,5,3,"useful, but would be better to see spatial data overlayed",spatial versus bar graph results 
+R09,1a,,10,9,NA,NA
+R09,1b,,10,9,NA,NA
+R09,1c_01,,5,2,NA,none
+R09,1c_02,,5,3,NA,none
+R09,1c_03,,5,3,NA,none
+R09,2a,,10,1,NA,NA
+R09,2b,,10,3,NA,NA
+R09,2c,,10,3,NA,NA
+R09,2d_01,,5,3,none,none
+R09,2d_02,,5,NA,none,none
+R09,2d_03,,5,NA,did not try,none
+R09,2d_04,,5,3,none,multiple goals better characterize selections
+R09,2d_05,,5,4,none,small/med/large project needs cleaner explanation
+R09,2d_06,,5,2,none,would benefit from better visualization of projects on input maps
+R10,1a,,10,1,NA,NA
+R10,1b,,10,3,NA,NA
+R10,1c_01,,5,2,NA,none
+R10,1c_02,,5,2,NA,none
+R10,1c_03,,5,3,NA,none
+R10,2a,,10,1,NA,NA
+R10,2b,,10,3,NA,NA
+R10,2c,,10,3,NA,NA
+R10,2d_01,,5,2,none,none
+R10,2d_02,,5,2,none,none
+R10,2d_03,,5,3,needed directions on how to upload,none
+R10,2d_04,,5,2,none,make goals broader and more nuanced
+R10,2d_05,,5,2,none,broader range needed
+R10,2d_06,,5,2,none,need more detailed outputs / scale is important
+R11,1a,,10,1,NA,NA
+R11,1b,,10,8,NA,NA
+R11,1c_01,,5,4,NA,none
+R11,1c_02,,5,4,NA,none
+R11,1c_03,,5,5,NA,none
+R11,2a,,10,1,NA,NA
+R11,2b,,10,10,NA,NA
+R11,2c,,10,10,NA,NA
+R11,2d_01,,5,5,few buttons to select made it streamlined,none
+R11,2d_02,,5,5,none,maybe have it default to the 1-map view 
+R11,2d_03,,5,5,none,none
+R11,2d_04,,5,3,none,editing capabilities; select multiple scenario options
+R11,2d_05,,5,3,none,select multiple scenario options
+R11,2d_06,,5,4,none,"wish there was more information, i.e. species richness list/map"
+R12_rich,1a,,10,1,NA,NA
+R12_rich,1b,,10,4,NA,NA
+R12_rich,1c_01,,5,NA,NA,none
+R12_rich,1c_02,,5,5,NA,none
+R12_rich,1c_03,,5,NA,NA,none
+R12_rich,2a,,10,2,NA,NA
+R12_rich,2b,,10,6,NA,NA
+R12_rich,2c,,10,6,NA,NA
+R12_rich,2d_01,,5,4,none,none
+R12_rich,2d_02,,5,4,none,none
+R12_rich,2d_03,,5,NA,didn't do it,none
+R12_rich,2d_04,,5,2,none,none
+R12_rich,2d_05,,5,2,none,none
+R12_rich,2d_06,,5,2,none,none
