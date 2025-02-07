@@ -1,0 +1,6 @@
+NL050_W1_EVAL_ANALYSIS Project:
+
+MTM - Github token created Fri 7 Feb 2025 (90 days):
+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
+
+*not sure if this will be the RSTUDIO token for the next 90 days for all projects? but it is here now.
