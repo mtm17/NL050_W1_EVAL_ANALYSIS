@@ -52,5 +52,3 @@ Q1ab_plot
 dev.off()
 
 
-
-
