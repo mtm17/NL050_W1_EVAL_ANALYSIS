@@ -121,7 +121,7 @@ dev.off()
 W1_data_Q2ab <- W1_data %>%
   dplyr::filter(question == "2a" | question == "2b" | question == "2c")
 
-#FIRST: Make a boxplot of Q1 responses (removing R12): 
+#FIRST: Make a boxplot of Q2ab responses (removing R12): 
 Q2ab_plot <- ggplot(W1_data_Q2ab %>%
                       filter(respondent != "R12_rich" & question != "2c"),
                     aes(x=question, y=rank)) +
@@ -140,10 +140,30 @@ png(file.path(graph_output_dir, "Planscape_Before-After_Participant_Familiarity_
 Q2ab_plot
 dev.off()
 
+#Boxplot of Q2c responses
+Q2c_plot <- ggplot(W1_data_Q2ab %>%
+                     filter(respondent != "R12_rich" & question == "2c"),
+                   aes(x=question, y=rank)) +
+  geom_boxplot(fill="darkblue", alpha=0.2)+
+  scale_y_continuous(breaks=c(1,2,3,4,5,6,7,8,9,10), limits=c(1,10))+
+  #scale_x_discrete(labels=c('Before Workshop', 'After Workshop'))+
+  labs(x = "Participant Overall Interest: \n Learning More about Planscape", y="Likert Rank Scale (1=Low, 10=High)")+
+  theme(axis.title.x=element_text())+
+  labs(title="After-Workshop Participant Interest: \n Planscape Software")+
+  theme_bw()+
+  theme(plot.title=element_text(hjust=0.5))
+Q2c_plot
+
+png(file.path(graph_output_dir, "Planscape_Onward_Interest_PostWorkshop.png"), width=3.5, height=6, units="in", pointsize=8, res=400)
+Q2c_plot
+dev.off()
+
+
+
 #SECOND:  HISTOGRAM OF INDIV. RESPONDENT-LEVEL CHANGE IN UNDERSTANDING.
 
 #starting data subset
-W1_data_Q1ab
+W1_data_Q2ab
 
 #pivot data table longer to calculate changes in Q1a vs Q1b (before vs. after) scores
 W1_data_Q2ab_diff <- W1_data_Q2ab %>%
@@ -200,6 +220,22 @@ Q2ab_scatterplot_learning
 
 png(file.path(graph_output_dir, "Planscape_Participant_Understanding_Change_Scatterplot.png"), width=5, height=5, units="in", pointsize=8, res=400)
 Q2ab_scatterplot_learning
+dev.off()
+
+#SCATTERPLOT - ONWARD INTERST vs. WKSHP-CHANGE IN UNDERSTANDING
+Q2ac_scatterplot_interest <- ggplot(W1_data_Q2ab_diff %>%
+                                      filter(respondent != "R12_rich"),
+                                    aes(x=`delta`, y=`2c`))+
+  geom_point(na.rm=T)+
+  geom_text_repel(aes(label=respondent))+
+  scale_x_continuous(limits=c(0,10), breaks=seq(0,10, by=1))+
+  scale_y_continuous(limits=c(0, 10), breaks=seq(-10,10, by=1))+
+  labs(x="Change in Participant Likert-Rank Understanding of Planscape \n During Workshop",
+       y="Onward Interest: \n Planscape Software")+
+  theme_bw()
+Q2ac_scatterplot_interest
+png(file.path(graph_output_dir, "Planscape_Onward-Interest_vs_SelfRankedLearning.png"), width=5, height=5, units="in", pointsize=8, res=400)
+Q2ac_scatterplot_interest
 dev.off()
 
 
