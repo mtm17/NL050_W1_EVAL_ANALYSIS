@@ -238,6 +238,9 @@ png(file.path(graph_output_dir, "Planscape_Onward-Interest_vs_SelfRankedLearning
 Q2ac_scatterplot_interest
 dev.off()
 
+#####4. CCA-5 Wildfire Map Products (question 1c) #####
+
+
 
 
 
